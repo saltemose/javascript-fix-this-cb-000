@@ -32,7 +32,11 @@ function makeCake() {
 function makePie() {
   var updatePieStatus = updateStatus.bind(this);
   updatePieStatus("Prep")
+<<<<<<< HEAD
   pie.decorate = cake.decorate.bind(pie);
+=======
+  pie.decorate() = cake.decorate.bind(pie);
+>>>>>>> 0f56446b7fa9541661892317f1af26f3319f379d
   mix.call(pie, updatePieStatus);
 
 }
